@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeoMart Privacy Policy</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.65; max-width: 920px; margin: 0 auto; padding: 24px; color: #0f172a; background: #fff; }
+    h1 { color: #0f766e; border-bottom: 2px solid #0f766e; padding-bottom: 10px; margin-bottom: 18px; }
+    h2 { color: #0f766e; margin-top: 28px; }
+    h3 { color: #334155; margin-top: 18px; }
+    .muted { color: #475569; }
+    .last-updated { background: #ecfeff; padding: 10px 12px; border-left: 4px solid #0ea5a4; margin-bottom: 18px; }
+    .box { background: #f8fafc; padding: 16px; border-radius: 8px; margin: 16px 0; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    a { color: #0ea5a4; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .small { font-size: 0.95rem; }
+  </style>
+  <meta name="color-scheme" content="light">
+</head>
+<body>
+  <h1>Privacy Policy for GeoMart</h1>
+  <div class="last-updated"><strong>Last Updated:</strong> September 18, 2025</div>
+
+  <h2>1. Introduction</h2>
+  <p>Welcome to GeoMart ("we," "our," or "us"). This Privacy Policy explains what information we collect, how we use it, how it may be shared, and the choices you have. It also describes measures we take to safeguard your information and how you can contact us about our privacy practices.</p>
+
+  <div class="box small">
+    <p>We comply with applicable privacy regulations, including GDPR and CCPA. By using GeoMart, you agree to the practices described in this policy.</p>
+  </div>
+
+  <h2>2. Information We Collect</h2>
+  <h3>2.1 Personal Information You Provide</h3>
+  <ul>
+    <li><strong>Account & Profile</strong>: Name, username, display name, email, phone number, profile photos/avatars, bios.</li>
+    <li><strong>Verification</strong>: Phone verification status and timestamps, identity signals (if applicable).</li>
+    <li><strong>Preferences</strong>: Privacy preferences including phone sharing and location visibility settings.</li>
+  </ul>
+  <h3>2.2 Marketplace & Requests</h3>
+  <ul>
+    <li>Listings and requests content, images, categories, prices, and metadata.</li>
+    <li>Pings and messages exchanged between users.</li>
+    <li>Ratings, reviews, reports, favorites, hidden items, blocked users.</li>
+  </ul>
+  <h3>2.3 Device, Usage & Analytics</h3>
+  <ul>
+    <li>Device details (model, OS), app version, performance and error logs.</li>
+    <li>Usage metrics (features used, session data) for product improvement.</li>
+  </ul>
+  <h3>2.4 Location</h3>
+  <ul>
+    <li>Approximate or precise location (if you grant permission) to enable nearby search and distance calculations.</li>
+  </ul>
+
+  <h2>3. How We Use Information</h2>
+  <ul>
+    <li>Provide and improve marketplace and request features.</li>
+    <li>Enable messaging, pings, notifications, and support.</li>
+    <li>Show nearby content using your location settings.</li>
+    <li>Implement verification and trust indicators on profiles and listings.</li>
+    <li>Moderate and enforce policies (including usernames, listings, and requests).</li>
+    <li>Detect and prevent fraud, abuse, and security incidents.</li>
+    <li>Measure performance and enhance user experience.</li>
+    <li>Manage OMNI rewards, achievements, and leaderboards (no monetary value).</li>
+  </ul>
+
+  <h2>4. Phone Sharing & Visibility</h2>
+  <p>You control whether your phone number is visible to others. Your preference can be changed at any time in the app settings. When enabled, your phone number may be shown to the other party in relevant interactions; when disabled, it remains hidden.</p>
+  <ul>
+    <li>We store your preference and the time it was last updated.</li>
+    <li>We do not sell your phone number or share it for advertising.</li>
+  </ul>
+
+  <h2>5. Location Sharing & Visibility</h2>
+  <p>Location access is optional and used to power nearby search and relevance. You can disable precise location in your device settings. When disabled, the app may use approximate location or allow manual selection.</p>
+  <ul>
+    <li>Used to sort listings/requests by distance and relevance.</li>
+    <li>Not shared with third parties for advertising purposes.</li>
+    <li>Can be turned off at any time in system settings.</li>
+  </ul>
+
+  <h2>6. Verification & Trust</h2>
+  <p>We process verification data (e.g., phone verification and identity signals) to enhance trust and safety. Your verification status may be visible on your profile and content.</p>
+  <ul>
+    <li>Verification records are retained for a limited period (typically up to 3 years).</li>
+    <li>Used only for safety reviews and Trust & Safety measures.</li>
+  </ul>
+
+  <h2>7. Information Sharing</h2>
+  <p>We do not sell personal data. We may share limited data in these cases:</p>
+  <ul>
+    <li>With other users as part of marketplace functionality (e.g., profile details, verification status, listing/request content).</li>
+    <li>With service providers strictly to operate the app: Supabase (hosting & auth), Google Analytics (usage), Sentry (error reports), Google Maps (location & maps).</li>
+    <li>To comply with laws or enforce our policies.</li>
+  </ul>
+
+  <h2>8. Security</h2>
+  <ul>
+    <li>Encryption in transit and at rest where applicable.</li>
+    <li>Row Level Security (RLS) and access controls to isolate user data.</li>
+    <li>Audit logging, periodic reviews, and security updates.</li>
+  </ul>
+
+  <h2>9. Retention</h2>
+  <ul>
+    <li>Account data: retained until account deletion.</li>
+    <li>Communications: retained while account remains active.</li>
+    <li>Verification: retained typically up to 3 years after verification.</li>
+    <li>Analytics logs: time-limited and aggregated where possible.</li>
+  </ul>
+
+  <h2>10. Your Rights</h2>
+  <p>Subject to applicable law (e.g., GDPR/CCPA), you may access, rectify, delete, export your data, withdraw consent, and manage privacy preferences. You may also request updates to non‑compliant identifiers (including usernames) that violate policies.</p>
+
+  <h2>11. Children’s Privacy</h2>
+  <p>GeoMart is not intended for children under 13. If we learn that we have collected personal information from a child under 13, we will delete it and take appropriate steps to prevent further collection.</p>
+
+  <h2>12. International Transfers</h2>
+  <p>Your information may be processed in countries outside your own. Where required, we implement appropriate safeguards such as Standard Contractual Clauses and data processing agreements.</p>
+
+  <h2>13. Changes to This Policy</h2>
+  <p>We may update this policy. We’ll notify you of material changes in‑app or by email. Continued use of GeoMart after changes become effective constitutes acceptance.</p>
+
+  <h2>14. Contact Us</h2>
+  <div class="box">
+    <p class="muted">For privacy questions or to exercise your rights:</p>
+    <ul>
+      <li><strong>Email</strong>: <a href="mailto:risingsoup76@gmail.com">risingsoup76@gmail.com</a></li>
+      <li><strong>Phone</strong>: <a href="tel:+917306519350">+91 7306 51 9350</a></li>
+      <li><strong>Address</strong>: Kozhikode, Kerala, India</li>
+    </ul>
+    <p class="small">We aim to respond within 48 hours. Response timelines may vary based on applicable law.</p>
+  </div>
+
+  <hr>
+  <p class="small">© <span id="year"></span> GeoMart. All rights reserved.</p>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
