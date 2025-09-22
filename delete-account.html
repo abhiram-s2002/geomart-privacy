@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account - GeoMart</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8fafc;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #1e293b;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .section h3 {
+            color: #374151;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 25px 0 15px 0;
+        }
+        
+        .section p {
+            margin-bottom: 15px;
+            color: #4b5563;
+        }
+        
+        .steps {
+            background: #f8fafc;
+            border-radius: 8px;
+            padding: 25px;
+            margin: 20px 0;
+            border-left: 4px solid #22c55e;
+        }
+        
+        .step {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 6px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .step-number {
+            display: inline-block;
+            background: #22c55e;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-weight: bold;
+            font-size: 14px;
+            margin-right: 12px;
+        }
+        
+        .warning-box {
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #ef4444;
+        }
+        
+        .warning-box h4 {
+            color: #dc2626;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .data-list {
+            background: #f1f5f9;
+            border-radius: 6px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+        
+        .data-list ul {
+            list-style: none;
+        }
+        
+        .data-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #e2e8f0;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .data-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .data-list li::before {
+            content: "✓";
+            color: #22c55e;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .contact-info {
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .contact-info h4 {
+            color: #1d4ed8;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .footer {
+            background: #1e293b;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .footer a {
+            color: #22c55e;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                border-radius: 8px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Delete Your GeoMart Account</h1>
+            <p>Complete guide to permanently delete your account and data</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>About Account Deletion</h2>
+                <p>We understand that you may want to delete your GeoMart account. This page explains how to permanently delete your account and all associated data from our platform.</p>
+                <p><strong>Developer:</strong> GeoMart Team<br>
+                <strong>App Name:</strong> GeoMart - Local Marketplace<br>
+                <strong>Contact:</strong> risingsoup76@gmail.com</p>
+            </div>
+            
+            <div class="section">
+                <h2>How to Delete Your Account</h2>
+                <div class="steps">
+                    <div class="step">
+                        <span class="step-number">1</span>
+                        <strong>Open the GeoMart App</strong><br>
+                        Launch the GeoMart app on your Android device and ensure you're logged into your account.
+                    </div>
+                    
+                    <div class="step">
+                        <span class="step-number">2</span>
+                        <strong>Navigate to Settings</strong><br>
+                        Tap on the "Profile" tab at the bottom of the screen, then tap on "Settings" to access your account settings.
+                    </div>
+                    
+                    <div class="step">
+                        <span class="step-number">3</span>
+                        <strong>Find Account Section</strong><br>
+                        Scroll down to the "Account" section at the bottom of the settings page.
+                    </div>
+                    
+                    <div class="step">
+                        <span class="step-number">4</span>
+                        <strong>Tap "Delete Account"</strong><br>
+                        Tap on the red "Delete Account" button to initiate the deletion process.
+                    </div>
+                    
+                    <div class="step">
+                        <span class="step-number">5</span>
+                        <strong>Confirm Deletion</strong><br>
+                        A confirmation dialog will appear. Type "delete" in the text field to confirm your decision.
+                    </div>
+                    
+                    <div class="step">
+                        <span class="step-number">6</span>
+                        <strong>Complete Deletion</strong><br>
+                        Tap "Delete Account" to permanently delete your account and all associated data.
+                    </div>
+                </div>
+                
+                <div class="warning-box">
+                    <h4>⚠️ Important Warning</h4>
+                    <p><strong>Account deletion is permanent and cannot be undone.</strong> Once you delete your account, all your data will be permanently removed from our servers and you will not be able to recover it.</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>What Data Will Be Deleted</h2>
+                <p>When you delete your account, the following data will be permanently removed from our servers:</p>
+                
+                <div class="data-list">
+                    <ul>
+                        <li>Your user profile information (name, username, email, phone number)</li>
+                        <li>All your marketplace listings (items for sale)</li>
+                        <li>All your service requests</li>
+                        <li>Your transaction history and purchase records</li>
+                        <li>Your ratings and reviews (both given and received)</li>
+                        <li>Your chat messages and conversation history</li>
+                        <li>Your saved listings and favorites</li>
+                        <li>Your blocked users list</li>
+                        <li>Your hidden listings</li>
+                        <li>Your reported content history</li>
+                        <li>Your app settings and preferences</li>
+                        <li>Your location data and preferences</li>
+                        <li>Your reward points and achievements</li>
+                        <li>Your referral history</li>
+                        <li>Your daily check-ins and streaks</li>
+                        <li>Your feedback and support tickets</li>
+                        <li>Your authentication credentials</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Data Retention Policy</h2>
+                <h3>Immediate Deletion</h3>
+                <p>Most of your data is deleted immediately when you confirm account deletion. This includes:</p>
+                <div class="data-list">
+                    <ul>
+                        <li>Personal information and profile data</li>
+                        <li>User-generated content (listings, messages, reviews)</li>
+                        <li>Account settings and preferences</li>
+                        <li>Authentication data</li>
+                    </ul>
+                </div>
+                
+                <h3>Legal Retention Requirements</h3>
+                <p>Some data may be retained for legal compliance purposes:</p>
+                <div class="data-list">
+                    <ul>
+                        <li>Transaction records for tax and accounting purposes (retained for 7 years as required by law)</li>
+                        <li>Security logs and audit trails (retained for 2 years for security monitoring)</li>
+                        <li>Legal dispute records (retained until resolution plus 3 years)</li>
+                    </ul>
+                </div>
+                
+                <p><strong>Note:</strong> Any retained data will be anonymized and cannot be linked back to your personal identity.</p>
+            </div>
+            
+            <div class="section">
+                <h2>Alternative Contact Methods</h2>
+                <p>If you're unable to delete your account through the app, you can request account deletion by contacting us directly:</p>
+                
+                <div class="contact-info">
+                    <h4>📧 Email Support</h4>
+                    <p>Send an email to: <strong>risingsoup76@gmail.com</strong><br>
+                    Subject: "Account Deletion Request"<br>
+                    Include your username and email address in the request.</p>
+                    
+                    <h4>📞 Phone Support</h4>
+                    <p>Call us at: <strong>+91 7306 51 9350</strong><br>
+                    Business Hours: Monday to Friday, 9:00 AM to 6:00 PM IST<br>
+                    Please have your account information ready when calling.</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Frequently Asked Questions</h2>
+                
+                <h3>How long does it take to delete my account?</h3>
+                <p>Account deletion is processed immediately when you confirm the action. Your data will be removed from our active systems within 24 hours.</p>
+                
+                <h3>Can I recover my account after deletion?</h3>
+                <p>No, account deletion is permanent. You would need to create a new account if you want to use GeoMart again.</p>
+                
+                <h3>Will deleting my account cancel any ongoing transactions?</h3>
+                <p>Yes, any pending transactions will be cancelled when your account is deleted. Make sure to complete any important transactions before deleting your account.</p>
+                
+                <h3>What happens to my listings after account deletion?</h3>
+                <p>All your listings will be immediately removed from the marketplace when your account is deleted.</p>
+                
+                <h3>Do I need to delete the app from my device?</h3>
+                <p>Deleting your account only removes your data from our servers. You can choose to keep or uninstall the app from your device.</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2025 GeoMart. All rights reserved.</p>
+            <p>
+                <a href="https://abhiram-s2002.github.io/geomart-privacy/privacy-policy.html">Privacy Policy</a> | 
+                <a href="https://abhiram-s2002.github.io/geomart-privacy/terms.html">Terms of Service</a>
+            </p>
+            <p>For support, contact us at <a href="mailto:risingsoup76@gmail.com">risingsoup76@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
