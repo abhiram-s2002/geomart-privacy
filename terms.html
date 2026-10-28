@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Kwicky</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+        :root {
+            --bg-base: #06080d;
+            --bg-surface: #0c101b;
+            --bg-card: #101625;
+            --border-subtle: rgba(255, 255, 255, 0.08);
+            --emerald-500: #10b981;
+            --emerald-400: #34d399;
+            --text-main: #f8fafc;
+            --text-sub: #94a3b8;
+            --text-muted: #64748b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #cbd5e1;
+            background-color: var(--bg-base);
+            background-image: 
+                radial-gradient(circle at 15% 10%, rgba(16, 185, 129, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 85% 20%, rgba(59, 130, 246, 0.07) 0%, transparent 40%);
+            background-attachment: fixed;
+            padding: 0 0 60px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .policy-nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(6, 8, 13, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 14px 20px;
+            margin-bottom: 32px;
+        }
+
+        .policy-nav-inner {
+            max-width: 920px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .policy-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .policy-logo-mark {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35);
+        }
+
+        .policy-logo-text {
+            font-size: 20px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: #ffffff;
+        }
+
+        .policy-back-link {
+            color: #38bdf8;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: color 0.15s;
+        }
+
+        .policy-back-link:hover {
+            color: #7dd3fc;
+        }
+
+        .container {
+            max-width: 920px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 2.4em;
+            font-weight: 800;
+            letter-spacing: -0.7px;
+            margin-bottom: 8px;
+        }
+
+        .last-updated {
+            color: #10b981;
+            font-size: 0.95em;
+            font-weight: 600;
+            margin-bottom: 36px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.25);
+            padding: 6px 14px;
+            border-radius: 999px;
+        }
+
+        h2 {
+            color: #f1f5f9;
+            font-size: 1.55em;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        h3 {
+            color: #e2e8f0;
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: #cbd5e1;
+        }
+
+        ul, ol {
+            margin: 12px 0 20px 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #cbd5e1;
+        }
+
+        strong {
+            color: #f8fafc;
+        }
+
+        .disclaimer {
+            background: rgba(239, 68, 68, 0.08);
+            border: 1px solid rgba(239, 68, 68, 0.25);
+            border-left: 4px solid #ef4444;
+            padding: 16px 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .disclaimer p {
+            color: #fca5a5;
+            margin-bottom: 8px;
+        }
+
+        .disclaimer li {
+            color: #fca5a5;
+        }
+
+        .notice-box {
+            background: rgba(59, 130, 246, 0.08);
+            border: 1px solid rgba(59, 130, 246, 0.25);
+            border-left: 4px solid #3b82f6;
+            padding: 16px 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .contact-info {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 22px;
+            margin: 20px 0;
+        }
+
+        .contact-info p {
+            margin-bottom: 8px;
+            color: #cbd5e1;
+        }
+
+        .contact-info a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="policy-nav">
+        <div class="policy-nav-inner">
+            <a href="https://kwicky.in" class="policy-logo">
+                <div class="policy-logo-mark">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m13 2-2 10h7L9 22l2-10H4z"/>
+                    </svg>
+                </div>
+                <span class="policy-logo-text">Kwicky</span>
+            </a>
+            <a href="https://kwicky.in" class="policy-back-link">&larr; Back to Kwicky</a>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Terms of Service for Kwicky</h1>
+        <p class="last-updated"><strong>Last Updated:</strong> March 5, 2026</p>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By downloading, installing, browsing, or using the Kwicky mobile application ("App") or related services operated by Kwicky ("we," "our," or "us"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use the App.</p>
+        <p>These Terms constitute a legally binding agreement between you and Kwicky. Your continued use of the platform constitutes ongoing acceptance of these Terms.</p>
+
+        <h2>2. Description of Service</h2>
+        <p>Kwicky is a local community marketplace platform designed to connect neighborhood buyers, sellers, service providers, and donors. Key features include:</p>
+        <ul>
+            <li>Creating, managing, discovering, and browsing listings for local items, fresh produce, foods, and services</li>
+            <li>Direct communication between users through secure in-app messaging and pings</li>
+            <li>Location-based relevance, distance estimates, and community discovery</li>
+            <li>Account verification systems (including phone verification via SMS and Truecaller SDK)</li>
+            <li>Voluntary blood donation matching and community blood requests</li>
+            <li>Gamified OMNI points, daily check-in streaks, leaderboards, achievements, and referral programs</li>
+            <li>Custom content filtering with hidden keywords and location browsing preferences</li>
+        </ul>
+
+        <h2>3. User Accounts & Verification</h2>
+        <h3>3.1 Eligibility & Account Creation</h3>
+        <ul>
+            <li>You must be at least 18 years old or possess parental/legal guardian consent to use Kwicky.</li>
+            <li>You agree to provide true, accurate, current, and complete information during registration.</li>
+            <li>You are responsible for maintaining the confidentiality of your login credentials and for all activities that occur under your account.</li>
+        </ul>
+
+        <h3>3.2 Account Verification</h3>
+        <ul>
+            <li>Kwicky provides phone number verification to encourage trust and authenticity within the community.</li>
+            <li><strong>Informational Only</strong>: Verification badges and indicators confirm possession of a verified phone number or credentials; they do not constitute an endorsement, guarantee, or background check by Kwicky.</li>
+            <li>Users are strongly advised to exercise personal diligence, caution, and common sense when transacting or meeting other individuals.</li>
+        </ul>
+
+        <h2>4. User Conduct & Prohibited Content</h2>
+        <p>You agree not to engage in any unlawful, harmful, or fraudulent activities on Kwicky. You strictly agree NOT to:</p>
+        <ul>
+            <li>Post counterfeit, stolen, illegal, hazardous, recalled, or prohibited items or services</li>
+            <li>Harass, intimidate, defraud, defame, impersonate, or threaten any other user or individual</li>
+            <li>Engage in deceptive pricing, scamming, false advertising, or manipulative marketplace schemes</li>
+            <li>Attempt unauthorized access to our infrastructure, user accounts, databases, or third-party integrations</li>
+            <li>Post content that violates local, state, national, or international laws</li>
+        </ul>
+
+        <h2>5. Marketplace Transactions & Disclaimers</h2>
+        <div class="disclaimer">
+            <p><strong>Peer-to-Peer Marketplace Disclaimer:</strong></p>
+            <ul>
+                <li><strong>No Warranty of Items</strong>: Kwicky is a technology venue connecting buyers and sellers. We do not manufacture, inspect, own, store, guarantee, or warranty any goods or services listed by users.</li>
+                <li><strong>Independent Transactions</strong>: All agreements, payments, deliveries, inspections, and exchanges are conducted solely and directly between the respective buyer and seller.</li>
+                <li><strong>Limitation of Liability</strong>: To the maximum extent permitted by applicable law, Kwicky is not liable for any financial losses, transaction disputes, damaged goods, or injuries resulting from marketplace interactions.</li>
+            </ul>
+        </div>
+
+        <h2>6. Blood Donation Feature Disclaimers</h2>
+        <div class="disclaimer">
+            <p><strong>CRITICAL MEDICAL NOTICE: Kwicky is NOT a healthcare provider, hospital, or blood bank.</strong></p>
+            <ul>
+                <li><strong>No Medical Services</strong>: The blood donation feature merely facilitates peer-to-peer contact between voluntary prospective donors and individuals in need.</li>
+                <li><strong>No Medical Verification</strong>: We do not medically test, screen, or certify donors, blood types, eligibility, health conditions, or safety.</li>
+                <li><strong>Professional Oversight Required</strong>: All blood donation, testing, cross-matching, and transfusion must be performed by licensed healthcare professionals and certified blood banks.</li>
+                <li><strong>Assumption of Risk</strong>: Users assume full responsibility and risk for blood donation interactions and agree to release Kwicky from any and all medical liabilities.</li>
+            </ul>
+        </div>
+
+        <h2>7. Rewards & Virtual Points (OMNI)</h2>
+        <div class="notice-box">
+            <p><strong>Non-Monetary Gamification:</strong></p>
+            <p>OMNI points earned via daily check-ins, achievements, secret codes, and referrals are virtual gamification elements solely for community engagement. OMNI points carry zero cash or monetary value, are not legal tender, cannot be withdrawn, exchanged for fiat currency or cryptoassets, or transferred outside of Kwicky.</p>
+        </div>
+
+        <h2>8. Intellectual Property & License</h2>
+        <p>The Kwicky app, branding, logos, graphics, and codebase are the proprietary property of Kwicky. By submitting content (photos, descriptions) to listings, you grant Kwicky a non-exclusive, worldwide, royalty-free license to display, index, and promote your content to operate the marketplace service.</p>
+
+        <h2>9. Account Termination & Moderation</h2>
+        <p>We reserve the right to suspend, terminate, or remove any account, listing, or content that violates these Terms, harms our community, or breaches applicable laws, with or without prior notice.</p>
+
+        <h2>10. Governing Law & Dispute Resolution</h2>
+        <p>These Terms shall be governed by and construed in accordance with the laws of India. Any disputes arising under or related to these Terms shall be subject to the exclusive jurisdiction of the competent courts in Kozhikode, Kerala, India.</p>
+
+        <h2>11. Contact Information</h2>
+        <div class="contact-info">
+            <p>If you have any questions or concerns regarding these Terms of Service, please reach out to us:</p>
+            <p><strong>Email:</strong> <a href="mailto:geocartindia@gmail.com">geocartindia@gmail.com</a></p>
+            <p><strong>Phone:</strong> +91 7306 51 9350 / +91 8281 29 9264</p>
+            <p><strong>Address:</strong> Kozhikode, Kerala, India</p>
+        </div>
+    </div>
+</body>
+</html>
